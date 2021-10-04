@@ -4,10 +4,11 @@ import { Container } from 'react-bootstrap';
 const Contact = () => {
     return (
         <Container>
+            <h2 style={{ color: 'orange' }} className="mb-5">Get Touch In!</h2>
             <div className="d-flex justify-content-around">
                 <div>
                     <form>
-                        <textarea className="my-3" rows="5" cols="70">
+                        <textarea className="my-3" rows="5" cols="70" placeholder="Enter Your Opinion Here">
                         </textarea>
                         <div className="d-flex gap-4">
                             <div >

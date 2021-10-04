@@ -24,16 +24,17 @@ const Services = () => {
 
     return (
         <Container>
+            <h2 style={{ color: 'orange' }} className="mb-5">Our More Services You Can Enjoy!</h2>
+
             <Row xs={1} md={3} className="g-4">
                 {
                     myservices.map(service => <Col>
-                        <Card>
+                        <Card className="card-height">
                             <Card.Img variant="top" src={service.image} />
                             <Card.Body>
                                 <Card.Title>{service.title}</Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                    {service.subtitle}
                                 </Card.Text>
                             </Card.Body>
                         </Card>

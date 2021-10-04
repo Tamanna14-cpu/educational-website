@@ -24,21 +24,21 @@
         "id": 4,
         "title": "Web Designing Mission",
         "image": "images/course4.jpg",
-        "subtitle": "for having a unique design use me",
+        "subtitle": "Web design encompasses many different skills and disciplines in the production and maintenance of websites.",
         "fee": 125
     },
     {
         "id": 5,
         "title": "VFX and Animation",
         "image": "images/course5.jpg",
-        "subtitle": "for having a unique design use me",
+        "subtitle": "Animation is a method in which figures are manipulated to appear as moving images.",
         "fee": 195
     },
     {
         "id": 6,
         "title": "Cyber Security Courses",
         "image": "images/course6.jpg",
-        "subtitle": "for having a unique design use me",
+        "subtitle": "Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.",
         "fee": 130
     },
     {

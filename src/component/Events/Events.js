@@ -24,7 +24,7 @@ const Events = () => {
     return (
         <div>
             <Container>
-                <h2 className="mb-5">Upcoming Events</h2>
+                <h2 style={{ color: 'orange' }} className="mb-5">Upcoming Events...</h2>
 
                 {
                     Events.map(event => <Card className="mb-5">
