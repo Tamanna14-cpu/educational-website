@@ -1,0 +1,31 @@
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    border: none !important;
+    background: #F8FFFB !important;
+    border-radius: 10px !important;
+}
+
+.about-img{
+    height: 70px;
+}
+
+.card-body p{
+    color: gray;
+    font-weight: 600;
+}
+
+.about-para{
+    color: gray;
+}
+.about-grid{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fas{
+    color: orange;
+}
