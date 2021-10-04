@@ -29,22 +29,22 @@ const Contact = () => {
                     <div className="d-flex gap-4 mb-4">
                         <div><i className="fas fa-home fa-3x"></i></div>
                         <div>
-                            <p>Buttonwood, California.</p>
+                            <h5>Buttonwood, California.</h5>
                             <p>Rosemead, CA 91770</p>
                         </div>
                     </div>
                     <div className="d-flex gap-4 mb-4">
                         <div><i class="fas fa-mobile-alt fa-3x"></i></div>
                         <div>
-                            <p>Buttonwood, California.</p>
-                            <p>Rosemead, CA 91770</p>
+                            <h5>+1 253 565 2365</h5>
+                            <p>Mon to Fri 9am to 6pm</p>
                         </div>
                     </div>
                     <div className="d-flex gap-4">
                         <div><i class="fas fa-envelope-open fa-3x"></i></div>
                         <div>
-                            <p>Buttonwood, California.</p>
-                            <p>Rosemead, CA 91770</p>
+                            <h5>support@colorlib.com</h5>
+                            <p>Send us your query anytime!</p>
                         </div>
                     </div>
                 </div>
