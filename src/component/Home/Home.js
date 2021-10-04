@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -27,16 +28,16 @@ const Home = () => {
 
             <Row xs={1} md={3} className="g-4" >
                 {
-                    courses.map(course => <Col >
+                    courses.map(course => <Col key={course.id}>
                         <Card className="card-height">
-                            <Card.Img variant="top" src={course.image} />
+                            <Card.Img variant="top" src={course.image} className="course-img" />
                             <Card.Body>
                                 <Card.Title>{course.title}</Card.Title>
                                 <Card.Text>
                                     {course.subtitle}
                                 </Card.Text>
                             </Card.Body>
-                            <h5>Enjoy it in only at ${course.fee}</h5>
+                            <button type="button" class="btn btn-outline-warning homepage-btn">Enjoy it in only at ${course.fee}</button>
                         </Card>
                     </Col>)
                 }
@@ -44,7 +45,9 @@ const Home = () => {
 
             <div >
                 <div class="hero-text py-5">
-                    <button>View More</button>
+                    <Link to="/service">
+                        <button>View More</button>
+                    </Link>
                 </div>
             </div>
         </div>

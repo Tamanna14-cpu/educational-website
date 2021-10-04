@@ -27,7 +27,7 @@ const Events = () => {
                 <h2 style={{ color: 'orange' }} className="mb-5">Upcoming Events...</h2>
 
                 {
-                    Events.map(event => <Card className="mb-5">
+                    Events.map(event => <Card key={event.id} className="mb-5">
                         <Card.Body className="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3 className="text-warning">{event.date}</h3>

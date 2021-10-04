@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
     return (
-        <div className="footer-basic">
+        <div className="footer-basic mt-5">
             <footer fixed="bottom">
                 <div className="social">
                     <a href="#"><i className="fab fa-instagram"></i></a>

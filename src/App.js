@@ -12,6 +12,7 @@ import NotFound from './component/NotFound/NotFound';
 import Events from './component/Events/Events';
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
+import Servicedetail from './component/Servicedetail/Servicedetail';
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/service">
             <Services></Services>
+          </Route>
+          <Route path="/service/:serviceId">
+            <Servicedetail></Servicedetail>
           </Route>
           <Route path="/event">
             <Events></Events>

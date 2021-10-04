@@ -7,8 +7,8 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className="p-5">
-            <Navbar bg="light" variant="light">
+        <div className="py-4">
+            <Navbar bg="light" variant="light" fixed="top">
                 <Container>
                     <NavLink to="/home" className="nav fw-bold">Home</NavLink>
 

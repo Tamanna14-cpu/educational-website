@@ -1,7 +1,10 @@
 .card-height{
-    height: 500px;
+    height: 480px;
    width: 70%;
    margin-left: 80px;
+}
+.course-img{
+    padding: 10px;
 }
 
 .hero-image {
@@ -32,4 +35,8 @@
 .hero-text button:hover {
     background-color: #555;
     color: white;
+}
+
+.homepage-btn{
+    margin: 5px;
 }
