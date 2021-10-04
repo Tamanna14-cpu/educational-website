@@ -31,7 +31,7 @@ function App() {
           <Route path="/service">
             <Services></Services>
           </Route>
-          <Route path="/service/:serviceId">
+          <Route path="/services/:serviceId">
             <Servicedetail></Servicedetail>
           </Route>
           <Route path="/event">
